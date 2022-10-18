@@ -15,3 +15,10 @@ for (var i = 0; i < textArea.length; i++) {
         $(textArea[i]).addClass("present")
     }
 }
+
+function saveFunction(){
+    
+}
+
+var saveBtn = $(".saveBtn")
+saveBtn.on("click", saveFunction)

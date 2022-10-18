@@ -16,8 +16,12 @@ for (var i = 0; i < textArea.length; i++) {
     }
 }
 
-function saveFunction(){
-    
+function saveFunction() {
+    var time = $(this).parent().attr("id")
+
+    var value = $(this).siblings(".description").val()
+
+    localStorage.setItem(time, value)
 }
 
 var saveBtn = $(".saveBtn")

@@ -5,6 +5,7 @@ var textArea = $(".description")
 var currentHour = moment().hour()
 for (var i = 0; i < textArea.length; i++) {
     var time = $(textArea[i]).parent().attr("id")
+    $(textArea[i]).val(localStorage.getItem(time))
     if (time < currentHour) {
         $(textArea[i]).addClass("past")
     }

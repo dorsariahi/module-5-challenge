@@ -2,4 +2,5 @@
 In this challenge, they have given us the starter code.
 The starter code includes the HTML file and CSS style sheet.
 For the given code works properly and fit the acceptance criteria, I had to add javascript and make a code for rows.
-2022-10-21.png
+
+link of the deployed website: https://dorsariahi.github.io/module-5-challenge/
